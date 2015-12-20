@@ -1,0 +1,14 @@
+{
+	"Robes": {
+		"armorTrack": [1, 3, 5, 7],
+		"critical": 5
+	},
+	"Leather": {
+		"armorTrack": [2, 4, 6, 8],
+		"critical": 6
+	},
+	"Plate": {
+		"armorTrack": [3, 5, 7, 9],
+		"critical": 7
+	}
+}
