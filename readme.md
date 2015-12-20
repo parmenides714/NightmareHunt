@@ -122,7 +122,7 @@ Boss Name | Effect 1 | Effect 2 | Boss Health | Boss Action 1
 ----|----|----|----|----
 Flaming Heart | If Flaming Heart would gain a Wound or Die, if there's an Ember in this Encounter, it takes no Wounds instead and does not Die. | Summon 2 *Ember*s. | 1 | Energy 5: Summon an *Ember* and skip the player's turn.
 
-### Level 3 - The Forbidden Sewers
+### Level 3 - Forbidden Sewers
 
 Encounter Name | Effect | Prey Health | Prey Action 1 | Prey Action 2 | Prey Action 3
 ----|----|----|----|----|----
