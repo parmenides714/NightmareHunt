@@ -72,8 +72,10 @@ Multiple Enemy Encounters: If an encounter contains more than one enemy they eac
 ### Conditions
 All *Conditions* can stack unless they say otherwise.
 
-Burning - Whenever you take a non-Recovery Action, gain a Wound in your *Action Discard*. Lose this condition when you rest.
-Vulnerability - Your *Armor Track* gains "3+". This stacks with any instances of 3+ already on your *Armor Track*. Lose this condition when you rest. 
+Name | Effect
+---- | ------
+Burning | Whenever you take a non-Recovery Action, gain a Wound in your *Action Discard*. Lose this condition when you rest.
+Vulnerability | Your *Armor Track* gains "3+". This stacks with any instances of 3+ already on your *Armor Track*. Lose this condition when you rest. 
 
 ### Game Play
 You start in town and may choose to venture out. While in town you may change your equipped armor.
