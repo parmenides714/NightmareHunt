@@ -97,7 +97,7 @@ Player's Turn: Choose and resolve an action. At the end of the turn draw cards f
 Encounter Name | Effect | Prey Health | Prey Action 1 | Prey Action 2 | Prey Action 3
 ----|----|----|----|----|----
 Corrupted Kobold | None | 6 | Energy 3: Power 2 | Energy 6: Power 4 and skip the player's turn. | None
-Rabid Dog | Fast 3 | 5 | Energy 2: Power 1 | Energy 6: Power 4 | Energy 8: Power 3 Power 3 and skip the player's turn.
+Rabid Dog | Fast 3 | 5 | Energy 2: Power 1 | Energy 6: Power 4 | Energy 8: Power 3 and Power 3 and skip the player's turn.
 Angry Villager | None | 8 | Energy 4: Power 3 | Energy 6: Power 4 and skip the player's turn. | None
 Dire Rat | None | 4 | Energy 2: Power 1 | Energy 4: Power 3 and skip the player's turn. | None
 Vile Giant | None | 12 | Energy 8: Power 8 and skip the player's turn. | None | None
@@ -115,8 +115,8 @@ Charred Horror | None | 5 | Energy 1: Power 3 | Energy 6: Power 5 and skip the p
 Ember | Fast 3 | 1 | Energy 3: Inflicts Burning | Energy 5: Power 2 and Inflicts Burning | Energy 7: Power 4 and Inflicts Burning and skip the player's turn.
 Deranged Pyromancer | None | 8 | Energy 3: Power 2 | Energy 5: Power 1 and Inflicts Burning and skip the player's turn. | None
 Conflagration Chimera | None | 10 | Energy 1: Inflicts Burning | Energy 6: Power 6 and skip the player's turn | None
-Twin Flames | Summon 2 *Ember*s | None | None | None | None
-Inferno | Inflicts Burning | None | None | None | None
+Twin Flames | Summon 2 *Ember*s. | None | None | None | None
+Inferno | Inflicts Burning. | None | None | None | None
 
 Boss Name | Effect 1 | Effect 2 | Boss Health | Boss Action 1 
 ----|----|----|----|----
@@ -124,3 +124,15 @@ Flaming Heart | If Flaming Heart would gain a Wound or Die, if there's an Ember 
 
 ### Level 3 - The Forbidden Sewers
 
+Encounter Name | Effect | Prey Health | Prey Action 1 | Prey Action 2 | Prey Action 3
+----|----|----|----|----|----
+Sneak Attack | Next *Prey* **OR** *Boss* gains Fast +3. | None | None | None | None
+Marksman | None | 7 | Energy 1: Inflicts Vulnerability. | Energy 5: Power 3 and skip the player's turn. | None
+Dagger Prodigy | None | 7 | Energy 3: Power 3 | Energy 6: Power 3 and Power 3 and skip the player's turn. | None
+Distracting Mirage | Inflicts Vulnerability. | None | None | None | None
+Tortured Giant | Fast 2 | 10 | Energy 7: Inflicts Vulnerability *THEN* Power 5 and skip the player's turn. | None | None
+Stalking Shadows | Fast 1 | 4 | Energy 3: Power 3 and skip the player's turn. | None | None
+
+Boss Name | Effect 1 | Boss Health | Boss Action 1 | Boss Action 2 | Boss Action 3 | Boss Action 4
+----|----|----|----|----|----|----|----
+Ayth, Ender | Fast 8 | 40 | Energy 1: Power 3 | Energy 4 : Inflict Vulnerability and skip the player's turn. | Energy 6: Power 3 and  Power 3 | Energy 8: Discard the player's deck and skip the player's turn.
