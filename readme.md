@@ -2,17 +2,19 @@
 
 ## Rules
 
-Wounds: Cards that you gain either in hand or in your *Action Discard* as a result of being attacked.
-Death: If you ever have *Wounds* in hand equal to your *Body* you die. Place the current *Encounter* into the *Encounter Discard*. Search the *Encounter Discard* for the *Boss*, and if found, place it on the bottom of the *Encounter Deck*. Place the *Encounter Discard* on top of the *Encounter Deck* without shuffling it. Then return to town.
-Recovery: Whenever you have no cards left in your *Action Deck* add a *Wound* to your *Action Discard* then shuffle your *Action Discard* and place it face down as a new *Action Deck*.
-Town: Whenever you return to *Town*, remove all *Wounds* from your *Action Deck*, *Action Discard*, and *Hand*. Shuffle them together, form a new *Action Deck* and draw a new *Hand*.
-Reaction: You may take up to 1 *Reaction* to each enemy *Action*.
-Cancel: If an action is cancelled it immediately ends without effect.
-Time: Every *Action* has a *Time* cost. When playing an *Action* all enemies get *Energy* equal to the *Time* that *Action* took.
-Energy: Enemies gain *Energy* as the player takes *Actions*. They spend that *Energy* to take their own *Actions*.
-Power: How strong an attack is. Player attacks deal damage to the enemy equal to their *Power*. Prey attacks deal Wounds according to the Player's *Armor Track*.
-Action Deck: Starts with 3 of each *Action*. May eventually contain *Wounds*.
-Encounter Deck: Defines the list of encounters for a given level. Always ends with a *Boss*
+Keyword | Definition
+------- | ----------
+Wounds | Cards that you gain either in hand or in your *Action Discard* as a result of being attacked.
+Death | If you ever have *Wounds* in hand equal to your *Body* you die. Place the current *Encounter* into the *Encounter Discard*. Search the *Encounter Discard* for the *Boss*, and if found, place it on the bottom of the *Encounter Deck*. Place the *Encounter Discard* on top of the *Encounter Deck* without shuffling it. Then return to town.
+Recovery | Whenever you have no cards left in your *Action Deck* add a *Wound* to your *Action Discard* then shuffle your *Action Discard* and place it face down as a new *Action Deck*.
+Town | Whenever you return to *Town*, remove all *Wounds* from your *Action Deck*, *Action Discard*, and *Hand*. Shuffle them together, form a new *Action Deck* and draw a new *Hand*.
+Reaction | You may take up to 1 *Reaction* to each enemy *Action*.
+Cancel | If an action is cancelled it immediately ends without effect.
+Time | Every *Action* has a *Time* cost. When playing an *Action* all enemies get *Energy* equal to the *Time* that *Action* took.
+Energy | Enemies gain *Energy* as the player takes *Actions*. They spend that *Energy* to take their own *Actions*.
+Power | How strong an attack is. Player attacks deal damage to the enemy equal to their *Power*. Prey attacks deal Wounds according to the Player's *Armor Track*.
+Action Deck | Starts with 3 of each *Action*. May eventually contain *Wounds*.
+Encounter Deck | Defines the list of encounters for a given level. Always ends with a *Boss*
 
 
 ### Character Information
@@ -25,21 +27,28 @@ Body | 4 | Determines the number of wounds you can have in hand before dying. Bo
 ### Actions
 #### Instinctual Action
 
-Pass - Time 0 - If you ever have no *Action* cards in hand you may take this action.
+Name | Cost | Description
+---- | ---- | -----------
+Pass | Time 0 | If you ever have no *Action* cards in hand you may take this action.
 
 #### Basic Actions
 As an additional cost to take a *Basic Action* discard a *non-Wound* card from your *Hand*.
 
-Punch - Time 4 - Power 3
-Sprint - Time 4 - *Reaction* - If, after paying for an *Action* an Enemy would have 0 *Energy*, you may cancel that *Action*. Skip your turn.
-Rest - Time 4 - *Recovery*. Discard your *Hand*.
+Name | Cost | Modifier | Description
+---- | ---- | -------- | -----------
+Punch | Time 4  | None | Power 3
+Sprint | Time 4 | *Reaction* | If, after paying for an *Action* an Enemy would have 0 *Energy*, you may cancel that *Action*. Skip your turn.
+Rest | Time 4 | *Recovery* | Discard your *Hand*.
 
 #### Action Cards
-Dodge - Time 3 - *Reaction*. Cancel an enemy *Action*. Skip your turn.
-Parry - Time 3 - *Reaction*. If, after paying for an *Action*, an enemy would have 0 *Energy*, you may cancel that Action.
-Slash - Time 5 - Power 5
-Slam - Time 7 - Power 6
-Swipe - Time 3 - Power 4
+
+Name | Cost | Modifier | Description
+---- | ---- | -------- | -----------
+Dodge | Time 3 | *Reaction* | Cancel an enemy *Action*. Skip your turn.
+Parry | Time 3 | *Reaction* | If, after paying for an *Action*, an enemy would have 0 *Energy*, you may cancel that Action.
+Slash | Time 5 | None | Power 5
+Slam | Time 7 | None | Power 6
+Swipe | Time 3| None | Power 4
 
 ### Armor
 
