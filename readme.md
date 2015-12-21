@@ -92,7 +92,7 @@ Prey Turn: The Prey uses the most expensive ability that they can afford.
 Player's Turn: Choose and resolve an action. At the end of the turn draw cards from your *Action Deck* until you have cards in hand equal to your *Mind*.
 
 ## Levels
-### Level 1 - Forgotten Forest
+### Level 1 - Forbidden Forest
 
 Encounter Name | Effect | Prey Health | Prey Action 1 | Prey Action 2 | Prey Action 3
 ----|----|----|----|----|----
@@ -122,7 +122,7 @@ Boss Name | Effect 1 | Effect 2 | Boss Health | Boss Action 1
 ----|----|----|----|----
 Flaming Heart | If Flaming Heart would gain a Wound or Die, if there's an Ember in this Encounter, it takes no Wounds instead and does not Die. | Summon 2 *Ember*s. | 1 | Energy 5: Summon an *Ember* and skip the player's turn.
 
-### Level 3 - Forbidden Sewers
+### Level 3 - Secret Sewers
 
 Encounter Name | Effect | Prey Health | Prey Action 1 | Prey Action 2 | Prey Action 3
 ----|----|----|----|----|----
