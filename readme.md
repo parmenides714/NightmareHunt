@@ -60,6 +60,8 @@ Plate | 3+ 5+ 7+ Critical 9+ | Slow 4
 
 You take wounds for each value on your *Defense Track* that an attack's *Power* is equal or greater to. Add these wounds to your *Action Discard*. When you suffer a *Critical* attack gain those wounds into your hand instead.
 
+Slow X: At the start of each *Encounter*, your Prey gains X *Energy*.
+
 ### Prey
 
 If a *Prey* doesn't have a 0 Energy ability then it gains the following ability: 
@@ -68,6 +70,8 @@ Pass - 0 Energy - Do nothing.
 Summon: Summoned enemies are *Trashed* at the end of the *Encounter*. They lose any "At the start of this *Encounter*" abilities.
 
 Multiple Enemy Encounters: If an encounter contains more than one enemy they each gain energy when the player takes an action.
+
+Fast X: At the start of the *Encounter*, this Prey gains X *Energy*.
 
 ### Conditions
 All *Conditions* can stack unless they say otherwise.
@@ -88,7 +92,47 @@ Prey Turn: The Prey uses the most expensive ability that they can afford.
 Player's Turn: Choose and resolve an action. At the end of the turn draw cards from your *Action Deck* until you have cards in hand equal to your *Mind*.
 
 ## Levels
-### Level 1 - Forgotten Forest
-### Level 2 - Crimson Valley
-### Level 3 - The Forbidden Sewers
+### Level 1 - Forbidden Forest
 
+Encounter Name | Effect | Prey Health | Prey Action 1 | Prey Action 2 | Prey Action 3
+----|----|----|----|----|----
+Corrupted Kobold | None | 6 | Energy 3: Power 2 | Energy 6: Power 4 and skip the player's turn. | None
+Rabid Dog | Fast 3 | 5 | Energy 2: Power 1 | Energy 6: Power 4 | Energy 8: Power 3 and Power 3 and skip the player's turn.
+Angry Villager | None | 8 | Energy 4: Power 3 | Energy 6: Power 4 and skip the player's turn. | None
+Dire Rat | None | 4 | Energy 2: Power 1 | Energy 4: Power 3 and skip the player's turn. | None
+Vile Giant | None | 12 | Energy 8: Power 8 and skip the player's turn. | None | None
+Dog Handler | None | 8 | Energy 3: Power 2 | Energy 4: Summon a *Rabid Dog* | Energy 5: Power 4 and skip the player's turn.
+
+Boss Name | Effect | Boss Health | Boss Action 1 | Boss Action 2
+----|----|----|----|----
+Jack the Black | If Jack the Black would take wounds that would cause his total wounds to be greater than or equal to 22, remove all wounds. | 21 | Energy 5: Power 4 | Energy 8: Power 7 and skip the player's turn.
+
+### Level 2 - Crimson Crater
+
+Encounter Name | Effect | Prey Health | Prey Action 1 | Prey Action 2 | Prey Action 3
+----|----|----|----|----|----
+Charred Horror | None | 5 | Energy 1: Power 3 | Energy 6: Power 5 and skip the player's turn. | None
+Ember | Fast 3 | 1 | Energy 3: Inflicts Burning | Energy 5: Power 2 and Inflicts Burning | Energy 7: Power 4 and Inflicts Burning and skip the player's turn.
+Deranged Pyromancer | None | 8 | Energy 3: Power 2 | Energy 5: Power 1 and Inflicts Burning and skip the player's turn. | None
+Conflagration Chimera | None | 10 | Energy 1: Inflicts Burning | Energy 6: Power 6 and skip the player's turn | None
+Twin Flames | Summon 2 *Ember*s. | None | None | None | None
+Inferno | Inflicts Burning. | None | None | None | None
+
+Boss Name | Effect 1 | Effect 2 | Boss Health | Boss Action 1 
+----|----|----|----|----
+Flaming Heart | If Flaming Heart would gain a Wound or Die, if there's an Ember in this Encounter, it takes no Wounds instead and does not Die. | Summon 2 *Ember*s. | 1 | Energy 5: Summon an *Ember* and skip the player's turn.
+
+### Level 3 - Secret Sewers
+
+Encounter Name | Effect | Prey Health | Prey Action 1 | Prey Action 2 | Prey Action 3
+----|----|----|----|----|----
+Sneak Attack | Next *Prey* **OR** *Boss* gains Fast +3. | None | None | None | None
+Marksman | None | 7 | Energy 1: Inflicts Vulnerability. | Energy 5: Power 3 and skip the player's turn. | None
+Dagger Prodigy | None | 7 | Energy 3: Power 3 | Energy 6: Power 3 and Power 3 and skip the player's turn. | None
+Distracting Mirage | Inflicts Vulnerability. | None | None | None | None
+Tortured Giant | Fast 2 | 10 | Energy 7: Inflicts Vulnerability *THEN* Power 5 and skip the player's turn. | None | None
+Stalking Shadows | Fast 1 | 4 | Energy 3: Power 3 and skip the player's turn. | None | None
+
+Boss Name | Effect 1 | Boss Health | Boss Action 1 | Boss Action 2 | Boss Action 3 | Boss Action 4
+----|----|----|----|----|----|----|----
+Ayth, Ender | Fast 8 | 40 | Energy 1: Power 3 | Energy 4 : Inflict Vulnerability and skip the player's turn. | Energy 6: Power 3 and  Power 3 | Energy 8: Discard the player's deck and skip the player's turn.
