@@ -107,7 +107,7 @@ Boss Name | Effect | Boss Health | Boss Action 1 | Boss Action 2
 ----|----|----|----|----
 Jack the Black | If Jack the Black would take wounds that would cause his total wounds to be greater than or equal to 22, remove all wounds. | 21 | Energy 5: Power 4 | Energy 8: Power 7 and skip the player's turn.
 
-### Level 2 - Crimson Valley
+### Level 2 - Crimson Crater
 
 Encounter Name | Effect | Prey Health | Prey Action 1 | Prey Action 2 | Prey Action 3
 ----|----|----|----|----|----
